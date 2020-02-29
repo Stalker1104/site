@@ -1,0 +1,202 @@
+
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:700&display=swap&subset=cyrillic,cyrillic-ext,greek,greek-ext,latin-ext,vietnamese" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    
+    <title>Мебель Ремсервис</title>
+</head>
+<body onload="to_do_function()">
+    <script>
+        function to_do_function(){
+            slider_info_1.innerHTML=do_r;
+        }
+    </script>
+   <div class="highslide" style="text-align: center;">
+        <div id="text" style="width:100%;height:2%;top:49%;">Пожалуйста переверните устройство!</div>
+        
+    </div>
+
+
+    <div class="all_1" >
+    <div id="title_1" style="text-align: center;position :absolute;top: 64px;width: 100%;font-size: 4vh;">Ремонт <br>и реставрация <br>мягкой мебели</div>
+    <div id="section_1" style="text-align: center;position: absolute;padding-top: 13vw;">Перетяжка<br>Механизмы<br>Каркасы</div>
+    <div id="elips_1"><img src="icon_1.png" alt=""style="width: 75%;top: 9%;left: 13.5%;position: absolute;"></div>
+    <!---->
+    <div id="section_2" style="text-align: center;position: absolute;padding-top: 13vw;">Фасон<br>Дизайн</div>
+    <div id="elips_2"><img src="icon_2.png" alt=""style="width: 75%;top: 9%;left: 13.5%;position: absolute;"></div>
+<!---->
+<div id="section_3" style="text-align: center;position: absolute;padding-top: 13vw;">Элементы<br>Блоки</div>
+<div id="elips_3"><img src="icon_3.png" alt=""style="width: 75%;top: 9%;left: 13.5%;position: absolute;"></div>
+<!---->
+<div id="section_4" style="text-align: center;position: absolute;padding-top: 13vw;">Замена<br>наполнителя</div>
+<div id="elips_4"><img src="icon_4.png" alt=""style="width: 75%;top: 9%;left: 13.5%;position: absolute;"></div>
+
+
+<div id="slider">
+    <img src="back_1.jpg" alt="" style="position: absolute;width: 100%;top: 165vh;height: 65vh;z-index: 0;" id="slider_img_back">
+    <div id="slider_img_dark_back" style="position: absolute;background-color:rgba(0, 0, 0, 0.5);width: 100%;top: 165vh;height: 65vh;z-index: 1;"></div>
+    <div id="slider_border"></div>
+    <div id="slider_info_1">До реставрации</div>
+    <img src="img_1.jpg" alt="" id="slide_1">
+    <img src="img_2.jpg" alt="" id="slide_2">
+    <img src="img_3.jpg" alt="" id="slide_3">
+    <img src="img_4.jpg" alt="" id="slide_4">
+    <img src="img_5.jpg" alt="" id="slide_5">
+    <img src="img_6.jpg" alt="" id="slide_6">
+    <div id="slider_elips_1"></div>
+    <div id="slider_elips_2"></div>
+    <div id="slider_elips_3"></div>
+    <div id="slider_elips_4"></div>
+    <div id="slider_elips_5"></div>
+    <div id="slider_elips_6"></div>
+    <div id="selested_slider_1"></div>
+    <script>
+        var do_r='До реставрации'
+        var posle_r='После реставрации'
+        slider_elips_1.onclick=function(){
+            slider_info_1.innerHTML=do_r;
+            selested_slider_1.style.left="22.8vw"
+            /**/slider_elips_1.style.borderColor="yellow"
+            slider_elips_1.style.backgroundColor="yellow"
+            /**/slider_elips_2.style.borderColor="rgb( 241, 241, 241 )"
+            slider_elips_2.style.backgroundColor="rgb( 241, 241, 241 )"
+            /**/slider_elips_3.style.borderColor="rgb( 241, 241, 241 )"
+            slider_elips_3.style.backgroundColor="rgb( 241, 241, 241 )"
+            /**/slider_elips_4.style.borderColor="rgb( 241, 241, 241 )"
+            slider_elips_4.style.backgroundColor="rgb( 241, 241, 241 )"
+            /**/slider_elips_5.style.borderColor="rgb( 241, 241, 241 )"
+            slider_elips_5.style.backgroundColor="rgb( 241, 241, 241 )"
+            /**/slider_elips_6.style.borderColor="rgb( 241, 241, 241 )"
+            slider_elips_6.style.backgroundColor="rgb( 241, 241, 241 )"
+            slide_1.style.display="block"
+            slide_2.style.display="none"
+            slide_3.style.display="none"
+            slide_4.style.display="none"
+            slide_5.style.display="none"
+            slide_6.style.display="none"
+        }
+        slider_elips_2.onclick=function(){
+            slider_info_1.innerHTML=posle_r;
+            selested_slider_1.style.left="32.8vw"
+            /**/slider_elips_1.style.borderColor="rgb( 241, 241, 241 )"
+            slider_elips_1.style.backgroundColor="rgb( 241, 241, 241 )"
+            /**/slider_elips_2.style.borderColor="yellow"
+            slider_elips_2.style.backgroundColor="yellow"
+            /**/slider_elips_3.style.borderColor="rgb( 241, 241, 241 )"
+            slider_elips_3.style.backgroundColor="rgb( 241, 241, 241 )"
+            /**/slider_elips_4.style.borderColor="rgb( 241, 241, 241 )"
+            slider_elips_4.style.backgroundColor="rgb( 241, 241, 241 )"
+            /**/slider_elips_5.style.borderColor="rgb( 241, 241, 241 )"
+            slider_elips_5.style.backgroundColor="rgb( 241, 241, 241 )"
+            /**/slider_elips_6.style.borderColor="rgb( 241, 241, 241 )"
+            slider_elips_6.style.backgroundColor="rgb( 241, 241, 241 )"
+            slide_1.style.display="none"
+            slide_2.style.display="block"
+            slide_3.style.display="none"
+            slide_4.style.display="none"
+            slide_5.style.display="none"
+            slide_6.style.display="none"
+        }
+        slider_elips_3.onclick=function(){
+            slider_info_1.innerHTML=do_r;
+            selested_slider_1.style.left="42.8vw"
+            /**/slider_elips_1.style.borderColor="rgb( 241, 241, 241 )"
+            slider_elips_1.style.backgroundColor="rgb( 241, 241, 241 )"
+            /**/slider_elips_2.style.borderColor="rgb( 241, 241, 241 )"
+            slider_elips_2.style.backgroundColor="rgb( 241, 241, 241 )"
+            /**/slider_elips_3.style.borderColor="yellow"
+            slider_elips_3.style.backgroundColor="yellow"
+            /**/slider_elips_4.style.borderColor="rgb( 241, 241, 241 )"
+            slider_elips_4.style.backgroundColor="rgb( 241, 241, 241 )"
+            /**/slider_elips_5.style.borderColor="rgb( 241, 241, 241 )"
+            slider_elips_5.style.backgroundColor="rgb( 241, 241, 241 )"
+            /**/slider_elips_6.style.borderColor="rgb( 241, 241, 241 )"
+            slider_elips_6.style.backgroundColor="rgb( 241, 241, 241 )"
+            slide_1.style.display="none"
+            slide_2.style.display="none"
+            slide_3.style.display="block"
+            slide_4.style.display="none"
+            slide_5.style.display="none"
+            slide_6.style.display="none"
+        }
+        slider_elips_4.onclick=function(){
+            slider_info_1.innerHTML=posle_r;
+            selested_slider_1.style.left="52.8vw"
+            /**/slider_elips_1.style.borderColor="rgb( 241, 241, 241 )"
+            slider_elips_1.style.backgroundColor="rgb( 241, 241, 241 )"
+            /**/slider_elips_2.style.borderColor="rgb( 241, 241, 241 )"
+            slider_elips_2.style.backgroundColor="rgb( 241, 241, 241 )"
+            /**/slider_elips_3.style.borderColor="rgb( 241, 241, 241 )"
+            slider_elips_3.style.backgroundColor="rgb( 241, 241, 241 )"
+            /**/slider_elips_4.style.borderColor="yellow"
+            slider_elips_4.style.backgroundColor="yellow"
+            /**/slider_elips_5.style.borderColor="rgb( 241, 241, 241 )"
+            slider_elips_5.style.backgroundColor="rgb( 241, 241, 241 )"
+            /**/slider_elips_6.style.borderColor="rgb( 241, 241, 241 )"
+            slider_elips_6.style.backgroundColor="rgb( 241, 241, 241 )"
+            slide_1.style.display="none"
+            slide_2.style.display="none"
+            slide_3.style.display="none"
+            slide_4.style.display="block"
+            slide_5.style.display="none"
+            slide_6.style.display="none"
+        }
+        slider_elips_5.onclick=function(){
+            slider_info_1.innerHTML=do_r;
+            selested_slider_1.style.left="62.8vw"
+            /**/slider_elips_1.style.borderColor="rgb( 241, 241, 241 )"
+            slider_elips_1.style.backgroundColor="rgb( 241, 241, 241 )"
+            /**/slider_elips_2.style.borderColor="rgb( 241, 241, 241 )"
+            slider_elips_2.style.backgroundColor="rgb( 241, 241, 241 )"
+            /**/slider_elips_3.style.borderColor="rgb( 241, 241, 241 )"
+            slider_elips_3.style.backgroundColor="rgb( 241, 241, 241 )"
+            /**/slider_elips_4.style.borderColor="rgb( 241, 241, 241 )"
+            slider_elips_4.style.backgroundColor="rgb( 241, 241, 241 )"
+            /**/slider_elips_5.style.borderColor="yellow"
+            slider_elips_5.style.backgroundColor="yellow"
+            /**/slider_elips_6.style.borderColor="rgb( 241, 241, 241 )"
+            slider_elips_6.style.backgroundColor="rgb( 241, 241, 241 )"
+            slide_1.style.display="none"
+            slide_2.style.display="none"
+            slide_3.style.display="none"
+            slide_4.style.display="none"
+            slide_5.style.display="block"
+            slide_6.style.display="none"
+        }
+        slider_elips_6.onclick=function(){
+            slider_info_1.innerHTML=posle_r;
+            selested_slider_1.style.left="72.8vw"
+            /**/slider_elips_1.style.borderColor="rgb( 241, 241, 241 )"
+            slider_elips_1.style.backgroundColor="rgb( 241, 241, 241 )"
+            /**/slider_elips_2.style.borderColor="rgb( 241, 241, 241 )"
+            slider_elips_2.style.backgroundColor="rgb( 241, 241, 241 )"
+            /**/slider_elips_3.style.borderColor="rgb( 241, 241, 241 )"
+            slider_elips_3.style.backgroundColor="rgb( 241, 241, 241 )"
+            /**/slider_elips_4.style.borderColor="rgb( 241, 241, 241 )"
+            slider_elips_4.style.backgroundColor="rgb( 241, 241, 241 )"
+            /**/slider_elips_5.style.borderColor="rgb( 241, 241, 241 )"
+            slider_elips_5.style.backgroundColor="rgb( 241, 241, 241 )"
+            /**/slider_elips_6.style.borderColor="yellow"
+            slider_elips_6.style.backgroundColor="yellow"
+            slide_1.style.display="none"
+            slide_2.style.display="none"
+            slide_3.style.display="none"
+            slide_4.style.display="none"
+            slide_5.style.display="none"
+            slide_6.style.display="block"
+        }
+    </script>
+</div>
+
+
+
+
+</div>
+</body>
+</html>
+
+  
